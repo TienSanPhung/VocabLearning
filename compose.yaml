@@ -1,0 +1,7 @@
+﻿services:
+  vocablearningapp:
+    image: vocablearningapp
+    build:
+      context: .
+      dockerfile: VocabLearningApp/Dockerfile
+
